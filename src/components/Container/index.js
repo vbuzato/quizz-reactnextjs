@@ -1,5 +1,9 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import db from '../../../db.json';
 
-export const Container = styled.div`
-
+const Container = styled.div`
+  color: ${db.theme.colors.primary};
+  padding: 20px;
 `;
+
+export default Container;
